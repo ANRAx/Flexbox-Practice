@@ -4,19 +4,33 @@
     justify-content: center;
 }
 
+body {
+    background-color: black;
+}
+
 h1 {
-    font-family: fantasy;
+    font-family: 'Amatic SC', cursive;
     font-size: 3em;
     border-bottom: 2px solid red;
     border-right: 2px solid red ;
     width: 400px;
     text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
+    background-color: white;
 }
 
 img {
     width: 450px;
     height: 350px;
     margin: 10px;
+    transition: all .5s;
 }
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
 
  
